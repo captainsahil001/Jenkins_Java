@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-             git branch: 'main',url: 'https://github.com/ankithtrainer/calculator-maven-devops'
+             git branch: 'main',url: 'https://github.com/captainsahil001/Jenkins_Java.git'
             }
         }
 
